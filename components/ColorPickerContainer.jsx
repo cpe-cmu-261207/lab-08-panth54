@@ -7,20 +7,20 @@ export default function ColorPickerContainer() {
   return (
     <div>
       <div className="d-flex gap-2 mb-2 justify-content-center">
-        <ColorPicker color="#000000" />
-        <ColorPicker color="#804000" />
-        <ColorPicker color="#FE0000" />
-        <ColorPicker color="#FE6A00" />
-        <ColorPicker color="#FFD800" />
-        <ColorPicker color="#00FF01" />
+        <ColorPicker color="#495C83" />
+        <ColorPicker color="#7A86B6" />
+        <ColorPicker color="#A8A4CE" />
+        <ColorPicker color="#C8B6E2" />
+        <ColorPicker color="#7858A6" />
+        <ColorPicker color="#5B4B8A" />
       </div>
       <div className="d-flex gap-2 justify-content-center">
-        <ColorPicker color="#FFFFFF" />
-        <ColorPicker color="#01FFFF" />
-        <ColorPicker color="#0094FE" />
-        <ColorPicker color="#0026FF" />
-        <ColorPicker color="#B100FE" />
-        <ColorPicker color="#FF006E" />
+        <ColorPicker color="#4C3575" />
+        <ColorPicker color="#371B58" />
+        <ColorPicker color="#AFB4FF" />
+        <ColorPicker color="#9C9EFE" />
+        <ColorPicker color="#AFB4FF" />
+        <ColorPicker color="#5534A5" />
       </div>
     </div>
   );

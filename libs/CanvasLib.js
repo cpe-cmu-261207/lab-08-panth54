@@ -19,19 +19,27 @@ const CanvasLib = {
 
   createRandomCanvas: () => {
     const colors = [
-      "#000000",
-      "#804000",
-      "#FE0000",
-      "#FE6A00",
-      "#FFD800",
-      "#00FF01",
-      "#FFFFFF",
-      "#01FFFF",
-      "#0094FE",
-      "#0026FF",
-      "#B100FE",
-      "#FF006E",
+      "#495C83",
+      "#7A86B6",
+      "#A8A4CE",
+      "#C8B6E2",
+      "#7858A6",
+      "#5B4B8A",
+      "#4C3575",
+      "#371B58",
+      "#AFB4FF",
+      "#9C9EFE",
+      "#AFB4FF",
+      "#5534A5",
     ];
+
+    const a = [];
+    for (let i = 0; i < 16; i++) {
+      a.push([]);
+      for (let j = 0; j < 16; j++)
+        a[i].push(colors[Math.floor(Math.random() * colors.length)]);
+    }
+    return a;
   },
 };
 
